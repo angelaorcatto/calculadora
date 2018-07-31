@@ -17,20 +17,4 @@ public class CalculadoraMetodos {
 	public void setValor2(double valor2) {
 		this.valor2 = valor2;
 	}
-	
-	public double adicao(){
-		return this.getValor1()+this.getValor2();
-	}
-	public double subtracao(){
-		return this.getValor1()-this.getValor2();
-	}
-	public double multiplicacao(){
-		return this.getValor1()*this.getValor2();
-	}
-	public double divisao(){
-		return this.getValor1()/this.getValor2();
-	}
-
-
-
 }
